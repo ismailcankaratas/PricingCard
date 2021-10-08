@@ -8,10 +8,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f2f2f2;
+    padding: 1rem;
 }
 .pricing-card-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 1rem;
 }
 .pricing-cards {
     display: flex;
@@ -23,9 +25,8 @@ body {
     background-color: white;
     margin: .5rem;
     padding: 2rem 1rem;
-
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .pricingCard:hover {
     transform: scale(1.1);
@@ -41,6 +42,7 @@ body {
     font-weight: 600;
 }
 .pricingCard-basket {
+    display: block;
     background-color: #491bd5;
     text-align: center;
     color: #fff;
@@ -48,6 +50,7 @@ body {
     border-radius: 100px;
     font-weight: 600;
     margin: 1rem;
+    text-decoration: none;
 }
 .pricingCard-refresh {
     text-align: center;
@@ -65,4 +68,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: large;
+}
+.pricingCard-all-properties a:hover {
+    color: #54595F;
 }
